@@ -27,3 +27,8 @@ learning tree
   - unity
   - gamemaker
 
+
+Scripts que necesito cuando empiezo una maldita maq virtual en ubuntu
+sudo apt-get install mercurial git
+git config --global user.email "gmail.com"
+git config --global user.name "José Espina"
