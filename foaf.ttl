@@ -1,13 +1,12 @@
-@base <http://raw.githubusercontent.com/joseespinadote/joseespinadote.github.io/master/foaf.ttl> .
+@base <http://raw.githubusercontent.com/joseespinadote/jose/master/foaf.ttl> .
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/terms/> .
-@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix wd: <http://www.wikidata.org/entity/>.
-
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 
 <> a foaf:Document ;
    dc:date "2020-11-18"^^xsd:date ;
@@ -17,15 +16,4 @@
 
 <#c8> a foaf:Person ;
    rdfs:label "Chavo Del Ocho" ;
-   rdfs:comment "Niño del baúl de la vecindad"@es ;
-   foaf:name "Chavo Del Ocho" ;
-   foaf:givenName "Chavo" ;
-   foaf:familyName "Del Ocho" ;
-   foaf:age 9 ;
-   foaf:img <http://github.com/joseespinadote/joseespinadote.github.io/raw/master/phil-claudio-gonzales.r_d.284-213-12148.jpeg> ;
-   foaf:homepage <http://chespirito.com/> ;
-   foaf:knows <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh>, <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
-   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
-   foaf:interest wd:Q54837 , wd:Q3284368, wd:Q18463183, wd:Q19950730 , wd:Q10346226 , wd:Q16491652 ;
-   social:hasSpiritAnimal wd:Q43730466 ;
-   foaf:myersBriggs "INTP" .
+   rdfs:comment "Niño del baúl de la vecindad"@es .
